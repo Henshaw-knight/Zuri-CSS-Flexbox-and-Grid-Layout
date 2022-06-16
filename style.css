@@ -20,8 +20,7 @@ body {
 }
 
 .card {
-    width: 20%;
-    /* margin: 20px;     */
+    width: 20%;    
     padding: 30px;
 }
 
@@ -41,14 +40,42 @@ body {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
     margin-bottom: 70px;
+    line-height: 1.5;
 }
 
-.card .writeup h2 {
+.card .writeup h1 {
     color: hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', cursive;
-    margin-bottom: 20px;
+    margin: 25px 0;
 }
 
 .img {
     margin: 15px 0;
+}
+
+button {
+    padding: 12px 20px;
+    border-radius: 50px;
+    /* color: hsl(31, 77%, 52%); */
+    background: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    margin-bottom: 10px;
+}
+
+button#sedans {
+    color: hsl(31, 77%, 52%);
+}
+
+button#suv {
+    color: hsl(184, 100%, 22%);
+}
+
+button#luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+#sedans:hover, #suv:hover, #luxury:hover {
+    color: hsl(0, 0%, 95%);
+    background: transparent; 
+    border: 2px solid hsl(0, 0%, 95%);
 }
