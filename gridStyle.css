@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(4, 4, 39);
+    
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+
+
+#layout {
+    display: grid;
+    grid-template-columns: 300px 150px 220px;
+    grid-template-rows: repeat(5, 110px);
+    grid-gap: 15px; 
+}
+
+#one {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background: orangered;
+}
+
+#two {
+    grid-column: 3/4;
+    grid-row: 1/3;
+    background: orange;
+}
+
+#three {
+    grid-column: 1/2;
+    grid-row: 3/5;
+    background: rgba(5, 163, 5, 0.897);
+}
+
+#four {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background: rgba(6, 197, 231, 0.966);
+}
+
+#five {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    background: rgba(6, 197, 231, 0.966);
+}
